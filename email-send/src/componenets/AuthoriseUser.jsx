@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 
 const clientId =
-  "112681219247-li0dmrp4fiho8eug2qaajhq823n14rsj.apps.googleusercontent.com";
-const clientSecret = "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";
+  "CLIENT_ID";
+const clientSecret = "CLIENT_SECRET";
 const scopes = "https://www.googleapis.com/auth/gmail.send";
 
 const GetAuthorisation = ({ isLoggedIn }) => {
